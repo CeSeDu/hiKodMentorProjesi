@@ -7,6 +7,30 @@ body {
 * {
   box-sizing: border-box;
 }
+.navbar__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.button__group{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.nav__button,.nav__button__orange{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.nav__button__orange{
+  background-color: #FC820F;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
 #whatIsHiKod {
   text-align: center;
 }
