@@ -7,26 +7,27 @@ body {
 * {
   box-sizing: border-box;
 }
-.navbar__container{
+.navbar__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px;
 }
-.button__group{
+.button__group {
   display: flex;
   gap: 15px;
   align-items: center;
 }
-.nav__button,.nav__button__orange{
+.nav__button,
+.nav__button__orange {
   border: none;
   background-color: transparent;
   cursor: pointer;
   text-decoration: none;
   color: black;
 }
-.nav__button__orange{
-  background-color: #FC820F;
+.nav__button__orange {
+  background-color: #fc820f;
   padding: 10px;
   border-radius: 10px;
   color: white;
@@ -242,4 +243,36 @@ body {
   .lang img {
     width: 8px;
   }
+}
+.header {
+  position: relative;
+
+}
+
+.imgtext {
+  position: relative;
+  top: 100px;
+  left: 394px;
+  width: 500px;
+  /* transform: translate(-50%, -50%); */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  letter-spacing: -0.04em;
+  color: white;
+}
+
+.imgtext2 {
+  position: absolute;
+  width: 595px;
+  height: 48px;
+  top: 900px;
+  left: 492px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100.02%;
+  color: white;
 }
