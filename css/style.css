@@ -256,21 +256,16 @@ display: grid;
 justify-content: center;
 max-width: 939px;
 }
-.imgtext {
+.imgtext,.imgtext2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
   color: white;
- 
 }
-
 .imgtext2 {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   font-size: 48px;
-  color: white;
   opacity: 0.5;
 margin-top: -70px;
 } 
