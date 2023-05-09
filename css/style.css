@@ -269,3 +269,34 @@ max-width: 939px;
   opacity: 0.5;
 margin-top: -70px;
 } 
+
+.Mentorler{
+  text-align: center;
+  }
+  .cardMentor{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 30%;
+    height: 200px;
+    background-color:white;
+  }
+  .Cards{
+    display: flex;
+    justify-content: space-between;
+  }
+  .links{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+  }
+  footer{
+    height: 150px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-sag{
+    display: flex;
+    justify-content: end;
+  }
