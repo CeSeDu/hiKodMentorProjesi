@@ -190,6 +190,7 @@ main {
   align-items: center;
   width: 55%;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 #seeAllMentors a {
   text-decoration: none;
