@@ -172,7 +172,8 @@ main {
   justify-content: center;
 }
 .mentorImg img {
-  width: 70px;
+  width: 95px;
+  height: 95px;
   border-radius: 20px;
 }
 .mentorInfo {
@@ -182,7 +183,11 @@ main {
   font-size: 12px;
 }
 .mentorInfo h3 {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+}
+.socialMediaName {
+  margin-right: 20px;
+  margin-left: 5px;
 }
 
 #seeAllMentors {
