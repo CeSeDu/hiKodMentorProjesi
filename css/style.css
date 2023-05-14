@@ -412,3 +412,59 @@ footer {
     width: 40px;
   }
 }
+
+#cagri {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 120px 120px;
+
+  width: auto;
+  height: 982px;
+
+  background: #feead7;
+}
+.personcard {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+  isolation: isolate;
+
+  width: 1608px;
+  height: 380px;
+
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+/* 
+.personcard>img{
+width: 300px;
+height: 300px;
+border-radius: 20px;
+} */
+
+.personcard>h1{
+  width: 797px;
+height: 64px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 100.02%;
+/* identical to box height, or 64px */
+
+letter-spacing: -0.04em;
+
+color: #FC820F;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
