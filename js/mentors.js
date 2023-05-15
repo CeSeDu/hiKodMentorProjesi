@@ -123,14 +123,14 @@ const mentors = [
         displayName: "GitHub",
       },
       {
-        instagram: "https://www.instagram.com/furkan.kr41/?hl=tr",
+        instagram: "https://www.instagram.com/furkan.kr41/",
         displayName: "Instagram",
       },
     ],
     school: "Şehit Edip Zengin Anadolu Lisesi",
-    exp: ["html", "css", "js"],
+    exp: ["html", "css","csharp","dotnet"],
     age: 18,
-    desc: "Merhaba ben Furkan, ",
+    desc: "Merhaba ben Furkan, 6.hi-kod front-end atolyesinden mezun oldum. Kendimi backend alanında geliştiriyorum. Müzik dinlemek, oyun oynamak ve bisiklete binmekten hoşlanırım.",
   },
   {
     name: "Selma",

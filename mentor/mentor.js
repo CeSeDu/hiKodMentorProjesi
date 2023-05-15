@@ -11,6 +11,8 @@ if (idx[0] !== "indx") {
     "js.png",
     "react.png",
     "vue.png",
+    "csharp.png",
+    "dotnet.png"
   ];
   const indx = Number(idx[1]);
 
