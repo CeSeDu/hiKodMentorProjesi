@@ -468,3 +468,7 @@ border-radius: 20px;
   justify-content: center;
   align-items: center;
 }
+
+.mentorInfo>a{
+  text-decoration: none;
+}
