@@ -86,7 +86,9 @@ const listMentors = () => {
     );
     mentorCardContent.innerHTML = mentorCardContent.innerHTML.replace(
       /%%mentor_img%%/g,
-      `${localOrigin}/img/img-${mentor.name.toLowerCase()}.jpg`
+      `${localOrigin}/img/img-${mentor.name
+        .toLocaleLowerCase()
+        .turkishToEnglish()}.jpg`
     );
     mentorCardContent.innerHTML = mentorCardContent.innerHTML.replace(
       /%%mentor_name%%/g,

@@ -171,7 +171,7 @@ main {
 .mentorContact {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center;*/
 }
 .mentorImg img {
   width: 95px;
@@ -415,7 +415,7 @@ footer {
   }
 }
 
-#cagri {
+#person {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -427,6 +427,7 @@ footer {
 
   background: #feead7;
 }
+
 .personcard {
   box-sizing: border-box;
   display: flex;
@@ -446,23 +447,23 @@ height: 300px;
 border-radius: 20px;
 } */
 
-.personcard>h1{
+.personcard > h1 {
   width: 797px;
-height: 64px;
+  height: 64px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 64px;
-line-height: 100.02%;
-/* identical to box height, or 64px */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 100.02%;
+  /* identical to box height, or 64px */
 
-letter-spacing: -0.04em;
+  letter-spacing: -0.04em;
 
-color: #FC820F;
+  color: #fc820f;
 }
 
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
