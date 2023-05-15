@@ -115,22 +115,22 @@ const mentors = [
     surname: "Karagöz",
     socialMedia: [
       {
-        linkedin: " ",
+        linkedin: "https://www.linkedin.com/in/furkankarag%C3%B6z/",
         displayName: "Linkedln",
       },
       {
-        github: " ",
+        github: "https://github.com/FurkanK41",
         displayName: "GitHub",
       },
       {
-        instagram: "https://www.instagram.com/furkan/",
+        instagram: "https://www.instagram.com/furkan.kr41/?hl=tr",
         displayName: "Instagram",
       },
     ],
-    school: " ",
+    school: "Şehit Edip Zengin Anadolu Lisesi",
     exp: ["html", "css", "js"],
-    age: 88,
-    desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+    age: 18,
+    desc: "Merhaba ben Furkan, ",
   },
   {
     name: "Selma",
