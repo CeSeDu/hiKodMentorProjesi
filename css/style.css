@@ -264,6 +264,11 @@ footer {
     display: block;
   }
 }
+@media (max-width:1470px) {
+  .text__container {
+    width: 100%;
+  }
+}
 @media (max-width: 1281px) {
   #shape1,
   #shape2,
@@ -326,8 +331,18 @@ footer {
   #jsLang {
     margin-left: 17px;
   }
+  .imgtext {
+    font-size: 80px;
+  }
 }
-
+@media (max-width:859px) {
+  .imgtext {
+    font-size: 65px;
+  }
+  .imgtext2 {
+    font-size: 40px;
+  }
+}
 @media (max-width: 718px) {
   .atolye-container {
     width: 70%;
@@ -378,10 +393,24 @@ footer {
     gap: 20px;
   }
 }
-
+@media (max-width:702px) {
+  .imgtext {
+    font-size: 50px;
+  }
+  .imgtext2 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
 @media (max-width: 560px) {
   .mentorCard {
     width: 100%;
+  }
+  .imgtext {
+    font-size: 40px;
+  }
+  .imgtext2 {
+    font-size: 20px;
   }
 }
 @media (max-width: 465px) {
@@ -407,6 +436,12 @@ footer {
   }
   #jsLang {
     margin-left: 15px;
+  }
+  .imgtext {
+    font-size: 30px;
+  }
+  .imgtext2 {
+    font-size: 15px;
   }
 }
 @media (max-width: 430px) {
@@ -446,6 +481,12 @@ footer {
     font-size: 8px;
   }
   #seeAllMentors a {
+    font-size: 10px;
+  }
+  .imgtext {
+    font-size: 20px;
+  }
+  .imgtext2 {
     font-size: 10px;
   }
 }
