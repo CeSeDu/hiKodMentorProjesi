@@ -24,6 +24,7 @@ body {
   gap: 15px;
   align-items: center;
   transition: all 0.4s ease-in-out;
+  z-index: 100;
 }
 .hamburger {
   display: none;
@@ -139,16 +140,20 @@ main {
 }
 
 .header__container {
-  display: grid;
-  justify-content: center;
-  align-items: center;
   background-image: url(../assets/img/img.png);
-  height: 1012px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 .text__container {
-  display: grid;
-  justify-content: center;
-  max-width: 939px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 70%;
+  text-align: center;
 }
 .imgtext,
 .imgtext2 {
