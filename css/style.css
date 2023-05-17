@@ -23,6 +23,7 @@ body {
   display: flex;
   gap: 15px;
   align-items: center;
+  transition: all 0.4s ease-in-out;
 }
 .hamburger {
   display: none;
