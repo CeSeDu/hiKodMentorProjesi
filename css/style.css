@@ -231,7 +231,21 @@ footer {
   display: flex;
   justify-content: end;
 }
-
+#scrtollToTop {
+  cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  background-color: #fc820f;
+  padding: 5px;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: all 0.4s ease-in;
+}
+#scrtollToTop:hover {
+  opacity: 1;
+}
 @media (max-width: 1618px) {
   .atolye-container {
     width: 30%;
