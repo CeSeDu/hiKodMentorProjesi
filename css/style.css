@@ -368,6 +368,10 @@ footer {
   .button__group.active {
     top: 109px;
   }
+  footer {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 @media (max-width: 560px) {
