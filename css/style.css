@@ -221,16 +221,13 @@ main {
 /* Mentorler bitis */
 
 footer {
-  height: 150px;
   background-color: #333;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 80px;
 }
-.footer-sag {
-  display: flex;
-  justify-content: end;
-}
+
 #scrtollToTop {
   cursor: pointer;
   position: fixed;
