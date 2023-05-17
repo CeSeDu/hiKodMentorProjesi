@@ -236,7 +236,7 @@ footer {
 #scrtollToTop {
   cursor: pointer;
   position: fixed;
-  bottom: 30px;
+  bottom: 60px;
   right: 30px;
   color: #fff;
   background-color: #fc820f;
@@ -454,6 +454,9 @@ footer {
   .mentorContact {
     display: block;
   }
+  .footer-sag a {
+    font-size: 10px;
+  }
 }
 @media (max-width: 350px) {
   .atolye-container {
@@ -488,6 +491,9 @@ footer {
   }
   .imgtext2 {
     font-size: 10px;
+  }
+  .footer-sag a {
+    font-size: 6px;
   }
 }
 @media (max-width: 306px) {
