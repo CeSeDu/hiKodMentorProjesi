@@ -24,6 +24,17 @@ body {
   gap: 15px;
   align-items: center;
 }
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.hamburger span {
+  width: 33px;
+  height: 4px;
+  background-color: #fc820f;
+  margin-top: 4px;
+  display: block;
+}
 .nav__button,
 .nav__button__orange {
   border: none;
@@ -469,6 +480,6 @@ border-radius: 20px;
   align-items: center;
 }
 
-.mentorInfo>a{
+.mentorInfo > a {
   text-decoration: none;
 }
