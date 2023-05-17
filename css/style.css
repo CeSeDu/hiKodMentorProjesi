@@ -27,6 +27,7 @@ body {
 .hamburger {
   display: none;
   cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 .hamburger span {
   width: 33px;
@@ -34,6 +35,7 @@ body {
   background-color: #fc820f;
   margin-top: 4px;
   display: block;
+  transition: all 0.4s ease-in-out;
 }
 .nav__button,
 .nav__button__orange {
@@ -328,6 +330,31 @@ footer {
   }
   .mentorCard {
     width: 80%;
+  }
+  .hamburger {
+    display: block;
+  }
+  .button__group {
+    position: absolute;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .button__group.active {
+    top: 109px;
   }
 }
 
