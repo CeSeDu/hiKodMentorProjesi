@@ -54,7 +54,7 @@
         .personalInfos span {
           font-size: 18px;
         }
-      }
+      
   
       #person {
         width: 100%;
@@ -67,8 +67,51 @@
         .flex.personName h3 {
           font-size: 12px !important;
         }
-  
-      @media (max-width:455px) {}
+      }
+
+      @media (max-width:540px) {
+        .personInfo{
+          margin-left: 0 !important;
+          gap: 0;
+        }
+
+        .flex.personName h3{
+            text-align: center;
+        }
+
+        .flex.socialLink i{
+          font-size: 35px !important;
+        }
+
+        .flex.personExtraInfo{
+          flex-direction: column;
+          width: 100%;
+        }
+
+        .personImg{
+          height: 180px;
+        }
+      }
+
+      @media (max-width:420px){
+        .flex.socialLink i{
+          font-size: 30px !important;
+        }
+
+        .personImg{
+          height: 165px;
+        }
+
+        .flex.personName h3{
+            text-align: left;
+        }
+      }
+
+      @media (max-width:390px){
+        .personcard{
+          padding: 13px;
+        }
+      }
     </style>
   </head>
   <body>
