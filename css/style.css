@@ -140,7 +140,7 @@ main {
 }
 
 .header__container {
-  background-image: url(../img/Hi-Kod.jpg);
+  background-image: url(../assets/img/img.png);
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
