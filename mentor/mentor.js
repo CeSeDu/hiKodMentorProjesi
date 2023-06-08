@@ -131,7 +131,6 @@ if (idx[0] !== "indx") {
         iframe.src = `${mentor.video}`;
         section.appendChild(iframe);
     } else {
-        iframe.remove();
         document.getElementById("person").style.height = "982px";
     }
 }
