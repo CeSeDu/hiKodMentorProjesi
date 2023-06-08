@@ -105,8 +105,8 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        desc: "Merhabalar Ben Azat, Front-end ve UI / UX Tasarım alanına meraklı bir Web Geliştiriciyim. Ağırlıklı olarak JavaScript (ReactJS, NextJS) kullanıyorum 2020 yılından beridir Front-end alanına 2022 Yılından beridir de UI / UX Tasarım alanına ilgiliyim 2023 Yılının Mart ayında Kodluyoruza (Teknik Asistan) görevi ile Gönüllülük sürecime başladım Kodluyoruz içinde Açık Kaynak Kodluyoruz projelerinde çeşitli görevler aldım. Hİ Kod Atölyesinde yazılıma yeni başlayan insanlara Front-end alanında mentörlük yaptım ve Çeşitli projelerde UI / UX Tasarım alanında bildiklerimi Topluluk önünde anlatmaya çalıştım.",
+        video: "https://www.youtube.com/embed/rm2RRSy2KLU"
     },
     {
         name: "Begüm",
