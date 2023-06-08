@@ -149,7 +149,7 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        desc: "Merhaba! Ben Büşra Çelikçioğlu. 24 yaşındayım ve Kocaeli'de yaşıyorum. Kocaeli Üniversitesi'nde Bilişim Sistemleri Mühendisliği okuyorum ve aynı zamanda Bilgisayar Programcılığı mezunuyum. Yazılım geliştirme konusunda kendimi sürekli ilerletmeye çalışıyorum, özellikle Front-end web geliştirme ve Siber Güvenlik alanlarına ilgim büyük. Mezun olduğumda bu alanlarda çalışmayı hedefliyorum. Teknoloji dünyasındaki hızlı değişimleri yakından takip ederek ve kendimi geliştirmek için çaba sarf ediyorum. Ayrıca, müzik dinlemek, gezmek ve sosyal medya gibi ilgi alanlarıma da vakit ayırıyorum.",
         video: ""
     },
     {
