@@ -61,8 +61,8 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        desc: "Ben Ayşenur Laklak. Süleyman Demirel üniversitesinde bilgisayar mühendisliği öğrencisiyim. Kitap okumayı, alışveriş yapmayı ve yeni şeyler keşfetmeyi severim.",
+        video: "https://www.youtube.com/embed/rDLXNq4nVQ8"
     },
     {
         name: "Arda",
@@ -281,8 +281,8 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        desc: "Merhabalar, ben Seda Toraman. Endüstri Mühendisliği son sınıf öğrencisiyim.    Anlık hayatımın içinde dijital bir işe yer verme fikri her zaman ilgimi çekiyordu, yazılım yolculuğumda bu düşüncemle birlikte başladı. Gitar çalmayı o kadar çok seviyorum ki, hem elimde gitar hem masamda bilgisayarımla birlikte sosyal hayatımdan geri kalmadım diyebilirim. Kayak yapmayı, badminton oynamayı, gezmeyi de sevdiğim kadar Hi-Kod Atölyesiyle tanıştığımdan beri ufak da olsa projeler geliştirmek oldukça eğlenceli. ",
+        video: "https://www.youtube.com/embed/gdg9oYUCgyg"
     },
     {
         name: "Selma",
