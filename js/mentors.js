@@ -18,7 +18,7 @@ const mentors = [{
         exp: ["html", "css", "js"],
         age: 88,
         desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        video: "https://www.youtube.com/embed/R64q1NcgH0o"
     },
     {
         name: "Asude",
@@ -40,7 +40,7 @@ const mentors = [{
         exp: ["html", "css", "js"],
         age: 88,
         desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        video: ""
     },
     {
         name: "Ayşenur",
@@ -84,7 +84,7 @@ const mentors = [{
         exp: ["html", "css", "js"],
         age: 88,
         desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        video: ""
     },
     {
         name: "Azat",
@@ -128,7 +128,7 @@ const mentors = [{
         exp: ["html", "css", "js"],
         age: 88,
         desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        video: ""
     },
     {
         name: "Büşra",
@@ -172,7 +172,7 @@ const mentors = [{
         exp: ["html", "css", "js"],
         age: 88,
         desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        video: ""
     },
     {
         name: "Eren",
@@ -216,7 +216,7 @@ const mentors = [{
         exp: ["html", "css", "js"],
         age: 88,
         desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        video: ""
     },
     {
         name: "Furkan",
@@ -241,6 +241,29 @@ const mentors = [{
         video: ""
     },
     {
+        name: "Melisa",
+        surname: "Ataseven",
+        socialMedia: [{
+                linkedin: "",
+                displayName: "Linkedln",
+            },
+            {
+                github: "",
+                displayName: "GitHub",
+            },
+            {
+                instagram: "",
+                displayName: "Instagram",
+            },
+        ],
+        school: "",
+        exp: ["html", "css", "js"],
+        age: 88,
+        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        video: ""
+    },
+
+    {
         name: "Nida",
         surname: "Kılıç",
         socialMedia: [{
@@ -260,7 +283,7 @@ const mentors = [{
         exp: ["html", "css", "js"],
         age: 88,
         desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: "https://www.youtube.com/embed/YnbnVo3T9lg"
+        video: ""
     },
     {
         name: "Seda",
