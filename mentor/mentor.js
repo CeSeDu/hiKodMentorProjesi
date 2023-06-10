@@ -12,7 +12,8 @@ if (idx[0] !== "indx") {
         "react.png",
         "vue.png",
         "csharp.png",
-        "dotnet.png"
+        "dotnet.png",
+        "bootstrap.png"
     ];
     const indx = Number(idx[1]);
 
@@ -120,7 +121,7 @@ if (idx[0] !== "indx") {
 
     const personDesc = document.createElement("div");
     personDesc.classList = "personDesc";
-    personDesc.innerText = mentor.desc;
+    personDesc.innerHTML = mentor.desc;
     section.appendChild(personDesc);
 
     /** personExtraInfo - end */

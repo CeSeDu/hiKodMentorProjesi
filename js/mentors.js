@@ -6,18 +6,18 @@ const mentors = [{
                 displayName: "Linkedln",
             },
             {
-                github: "https://www.linkedin.com/in/aleynaavci/",
+                github: "https://github.com/aleynaavci",
                 displayName: "GitHub",
             },
             {
-                instagram: "https://www.instagram.com/aleyna/",
+                instagram: "",
                 displayName: "Instagram",
             },
         ],
         school: "Sakarya Uygulamalı Bilimler Üniversitesi",
-        exp: ["html", "css", "js"],
-        age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        exp: ["html", "css", "git", "bootstrap", "js", "react"],
+        age: 21,
+        desc: "Merhaba, ben Aleyna Avcı. Sakarya Uygulamalı Bilimler Üniversitesi'nde Bilgisayar mühendisliği öğrencisiyim. Ankara'da yaşıyorum. Bir yılı aşkın süredir Front-End konusunda Javascript ve React ağırlıklı kendimi geliştirmeye çalışıyorum. Kariyerimin de bu yönde olmasını hedeflemekteyim. Mart 2023'ten bu yana Hi-Kod atölyesinde Front-End mentorluğu yapıyorum. Ayrıca kaktüsüm <a href='https://i.ibb.co/25pTVs2/IMG-20230610-WA0004.jpg' target='_blank'>Şukufe'yle</a>  birlikte Turkish psychedelic rock eşliğinde kod yazmaya bayılırım.",
         video: "https://www.youtube.com/embed/R64q1NcgH0o"
     },
     {
