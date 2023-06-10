@@ -21,14 +21,14 @@ const mentors = [{
         video: "https://www.youtube.com/embed/R64q1NcgH0o"
     },
     {
-        name: "Asude",
-        surname: "",
+        name: "Ayşe Asude",
+        surname: "Demirbaş",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/asude-demirbas-76071a223/",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/MorphyMitnick",
                 displayName: "GitHub",
             },
             {
@@ -36,21 +36,21 @@ const mentors = [{
                 displayName: "Instagram",
             },
         ],
-        school: "",
+        school: "Sınav Anadolu Lisesi",
         exp: ["html", "css", "js"],
-        age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        age: 18,
+        desc: "Merhabalar ben Asude. İki buçuk yıldır siber güvenlik, oyun geliştirme, yapay zeka, front-end, back-end, veri bilimi, derin öğrenme ve makine öğrenmesi alanlarıyla ilgileniyorum. Kodluyoruz Jr.'de atölye gerçekleştirdim. Kodluyoruz Jr. Fellow'uyum.",
         video: ""
     },
     {
         name: "Ayşenur",
         surname: "Laklak",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/ay%C5%9Fenur-laklak-2a2915253",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/aysenurlaklak",
                 displayName: "GitHub",
             },
             {
@@ -90,11 +90,11 @@ const mentors = [{
         name: "Azat",
         surname: "Eser",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/azateser/",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/azateser",
                 displayName: "GitHub",
             },
             {
@@ -109,36 +109,36 @@ const mentors = [{
         video: "https://www.youtube.com/embed/rm2RRSy2KLU"
     },
     {
-        name: "Begüm",
-        surname: " Hilal Telli",
+        name: "Begüm Hilal",
+        surname: "Telli",
         socialMedia: [{
-                linkedin: "https://wwwhttps://www.linkedin.com/in/beg%C3%BCm-hilal-telli-135243264/.linkedin.com/in/arda-y%C3%BCksel-a81a02221/",
+                linkedin: "https://www.linkedin.com/in/beg%C3%BCm-hilal-telli-135243264",
                 displayName: "Linkedln",
             },
             {
-                github: "https://github.com/s-elg",
+                github: "https://github.com/Bhtelli",
                 displayName: "GitHub",
             },
             {
-                instagram: "https://www.instagram.com/elginsum/",
+                instagram: "https://instagram.com/begumh_telli?igshid=MzNlNGNkZWQ4Mg==",
                 displayName: "Instagram",
             },
         ],
         school: " ",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        desc: "Merhaba ben Begüm, bilgisayar mühendisliği öğrencisiyim. 2 senedir bu sektörün içindeyim.  Front end web geliştirme ve backend tarafında Java ile ilgilenmekteyim. 2023 Şubat ayından beri Hi Kod Front End atölyesinde mentorlük yapıyorum. Hedefim full stack developer olmak. Amacım ise kendi versiyonumun en iyisi olup sektörde kadın gücünü göstermek! Yazılım sektöründe nice kadınları görmek ümidi ile!",
         video: ""
     },
     {
         name: "Büşra",
         surname: "Çelikçioğlu",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/b%C3%BC%C5%9Fra-%C3%A7elik%C3%A7io%C4%9Flu-98090619b/",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/busracelikcioglu",
                 displayName: "GitHub",
             },
             {
@@ -156,11 +156,11 @@ const mentors = [{
         name: "Çağrı",
         surname: "Okan",
         socialMedia: [{
-                linkedin: " ",
+                linkedin: " https://www.linkedin.com/in/cagriokan",
                 displayName: "Linkedln",
             },
             {
-                github: " ",
+                github: " https://github.com/ckproduces",
                 displayName: "GitHub",
             },
             {
@@ -175,10 +175,10 @@ const mentors = [{
         video: ""
     },
     {
-        name: "Eren",
-        surname: "",
+        name: "Eren Efe",
+        surname: "Kara",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/eren-efe-kara-928191261",
                 displayName: "Linkedln",
             },
             {
@@ -192,7 +192,7 @@ const mentors = [{
         ],
         school: " ",
         exp: ["html", "css", "js"],
-        age: 88,
+        age: 17,
         desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
         video: ""
     },
@@ -244,11 +244,11 @@ const mentors = [{
         name: "Melisa",
         surname: "Ataseven",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/melisa-ataseven-769473228/",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/MelisaAtaseven",
                 displayName: "GitHub",
             },
             {
