@@ -286,6 +286,28 @@ const mentors = [{
         video: ""
     },
     {
+        name: "Nuran",
+        surname: "Bircan",
+        socialMedia: [{
+                linkedin: "https://linkedin.com/in/nuranbircan",
+                displayName: "Linkedln",
+            },
+            {
+                github: "https://github.com/nuranbrcn",
+                displayName: "GitHub",
+            },
+            {
+                instagram: "https://www.instagram.com/nuranbrcn/",
+                displayName: "Instagram",
+            },
+        ],
+        school: "Pamukkale Üniversitesi",
+        exp: ["html", "css", "js"],
+        age: 22,
+        desc: "Merhaba ben Nuran. Pamukkale Üniversitesinde 3. Sınıf öğrencisiyim. 1 Yıldır yazılımda kendimi geliştirmeye çalışıyorum. Şu an Hi-Kod Atölyesinde Front-End Mentorluk yapıyorum.",
+        video: ""
+    },
+    {
         name: "Seda",
         surname: "Toraman",
         socialMedia: [{
@@ -309,7 +331,7 @@ const mentors = [{
     },
     {
         name: "Selma",
-        surname: "Yüksel",
+        surname: "Köksal",
         socialMedia: [{
                 linkedin: "https://www.linkedin.com/in/selmakoksal/",
                 displayName: "Linkedln",
@@ -319,25 +341,25 @@ const mentors = [{
                 displayName: "GitHub",
             },
             {
-                instagram: "https://www.instagram.com/selma/",
+                instagram: "https://www.instagram.com/selma.koxal/",
                 displayName: "Instagram",
             },
         ],
-        school: " ",
+        school: "Gaziantep Üniversitesi",
         exp: ["html", "css", "js"],
-        age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        age: 21,
+        desc: "Merhabalar ben Selma. Kendimi iki yıldır Front-End alanında geliştirmeye çalışıyorum. 2023 yılının Mart ayında Kodluyoruz'da Sosyal Asistan görevi ile Gönüllülük sürecime başladım. 2022 yılı Nisan ayından beri Hi Kod Front End atölyesinde mentorlük yaparak yazılıma yeni başlayan insanlara yardımcı olmaya çalışıyorum.",
         video: ""
     },
     {
         name: "Sümeyye",
         surname: "Elgin",
         socialMedia: [{
-                linkedin: " ",
+                linkedin: "https://www.linkedin.com/in/s%C3%BCmeyye-elgin-391060254/",
                 displayName: "Linkedln",
             },
             {
-                github: " ",
+                github: "https://github.com/s-elg",
                 displayName: "GitHub",
             },
             {
@@ -345,9 +367,9 @@ const mentors = [{
                 displayName: "Instagram",
             },
         ],
-        school: " ",
+        school: "Tekirdağ Namık Kemal Üniversitesi",
         exp: ["html", "css", "js"],
-        age: 88,
+        age: 21,
         desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
         video: ""
     },
