@@ -215,7 +215,7 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        desc: "Merhaba, ben Esmanur Karataş. 2022 yılında Fırat Üniversitesi Bilgisayar Programcılığı bölümünden mezun oldum. Şimdi de Anadolu Üniversitesi Yönetim Bilişim sistemleri okuyorum. Mezun olduktan sonra frontend alanına yönelip kendimi geliştirmeye başladım. Geliştirme sürecinde Kodluyoruz'da gönüllü teknik asistan olarak seçildim. Ayrıca frontend konusunda ilerlemem için yardımcı olabilecek insanlarla tanışmak ve bilgilerimi tazelemek amacıyla Hi-Kod 8. atölyeye başvurdum ve seçildim. Sonrasında 8. atölyede mentorluk yapmaya başladım.",
         video: ""
     },
     {
@@ -259,8 +259,8 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ismim Nida. Firat Üniversitesi Yazılım Mühendisliği öğrencisi olarak eğitimime devam ediyorum. Kariyer hedeflerim doğrultusunda farklı alanlarda kendimi geliştiriyorum. Her fırsatta kendime yeni deneyimler katmak için itina ile çalışıyorum",
-        video: "https://www.youtube.com/shorts/XLKTsCZ16gk"
+        desc: "",
+        video: ""
     },
 
     {
@@ -282,7 +282,7 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        desc: "Merhaba ,ismim Nida. Firat Üniversitesi Yazılım Mühendisliği öğrencisi olarak eğitimime devam ediyorum. Kariyer hedeflerim doğrultusunda farklı alanlarda kendimi geliştiriyorum. Her fırsatta kendime yeni deneyimler katmak için itina ile çalışıyorum.",
         video: ""
     },
     {
