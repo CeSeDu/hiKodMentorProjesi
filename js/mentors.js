@@ -259,8 +259,8 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
-        video: ""
+        desc: "Merhaba, ismim Nida. Firat Üniversitesi Yazılım Mühendisliği öğrencisi olarak eğitimime devam ediyorum. Kariyer hedeflerim doğrultusunda farklı alanlarda kendimi geliştiriyorum. Her fırsatta kendime yeni deneyimler katmak için itina ile çalışıyorum",
+        video: "https://www.youtube.com/shorts/XLKTsCZ16gk"
     },
 
     {
