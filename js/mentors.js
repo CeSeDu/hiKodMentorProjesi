@@ -175,6 +175,28 @@ const mentors = [{
         video: ""
     },
     {
+        name: "Duha",
+        surname: "Kolsuz",
+        socialMedia: [{
+                linkedin: "",
+                displayName: "Linkedln",
+            },
+            {
+                github: "",
+                displayName: "GitHub",
+            },
+            {
+                instagram: "",
+                displayName: "Instagram",
+            },
+        ],
+        school: " ",
+        exp: ["html", "css", "js"],
+        age: 88,
+        desc: "",
+        video: ""
+    },
+    {
         name: "Eren Efe",
         surname: "Kara",
         socialMedia: [{
