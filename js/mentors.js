@@ -370,7 +370,7 @@ const mentors = [{
         school: "Tekirdağ Namık Kemal Üniversitesi",
         exp: ["html", "css", "js"],
         age: 21,
-        desc: "Merhaba, ben Sümeyye! Bilgisayar mühendisliği 1. sınıf öğrencisiyim. Çanakkale'de yaşıyorum. Kendimi front-end alanında geliştirmekteyim. Hi-Kod Front-end 7. atölyesinden mezun oldum. 2023 yılının mart ayndan beri gönüllü mentörlük yapmaktayım.",
+        desc: "Merhaba, ben Sümeyye! Bilgisayar mühendisliği 1. sınıf öğrencisiyim. Çanakkale'de yaşıyorum. Kendimi front-end alanında geliştirmekteyim. Hi-Kod Front-end 7. atölyesinden mezun oldum. 2023 yılının mart ayından beri gönüllü mentörlük yapmaktayım.",
         video: "https://www.youtube.com/embed/zsDaLQLA1ls"
     },
 ];
