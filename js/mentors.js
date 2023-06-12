@@ -150,7 +150,7 @@ const mentors = [{
         exp: ["html", "css", "js"],
         age: 88,
         desc: "Merhaba! Ben Büşra Çelikçioğlu. 24 yaşındayım ve Kocaeli'de yaşıyorum. Kocaeli Üniversitesi'nde Bilişim Sistemleri Mühendisliği okuyorum ve aynı zamanda Bilgisayar Programcılığı mezunuyum. Yazılım geliştirme konusunda kendimi sürekli ilerletmeye çalışıyorum, özellikle Front-end web geliştirme ve Siber Güvenlik alanlarına ilgim büyük. Mezun olduğumda bu alanlarda çalışmayı hedefliyorum. Teknoloji dünyasındaki hızlı değişimleri yakından takip ederek ve kendimi geliştirmek için çaba sarf ediyorum. Ayrıca, müzik dinlemek, gezmek ve sosyal medya gibi ilgi alanlarıma da vakit ayırıyorum.",
-        video: ""
+        video: "https://www.youtube.com/embed/XKlVDfRgfpw"
     },
     {
         name: "Çağrı",
@@ -281,8 +281,8 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "",
-        video: ""
+        desc: "Merhaba ben Melisa. Lise dönemimde web tasarım eğitimine başlayarak temel bilgilere sahip oldum ve bu alanda deneyim kazandım. Şu an Işık Üniversitesi Bilgisayar Programcılığı son sınıf öğrencisiyim. Hedefim front-end alanında yeteneklerimi ilerletmek . Bu doğrultuda kendimi sürekli geliştirmek  için projeler üzerinde çalışarak deneyim ediniyorum.",
+        video: "https://www.youtube.com/embed/F63dCwoI0cQ"
     },
 
     {
