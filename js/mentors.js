@@ -222,15 +222,15 @@ const mentors = [{
         name: "Esmanur",
         surname: "Karataş",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/esmanur-karatas/",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/esmanur-karatas",
                 displayName: "GitHub",
             },
             {
-                instagram: "",
+                instagram: "https://www.instagram.com/nur.krts_/",
                 displayName: "Instagram",
             },
         ],
