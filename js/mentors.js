@@ -80,10 +80,10 @@ const mentors = [{
                 displayName: "Instagram",
             },
         ],
-        school: " ",
+        school: " Mehmet Rıfat Evyap Mesleki ve Teknik Anadolu Lisesi",
         exp: ["html", "css", "js"],
-        age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        age: 16,
+        desc: "Merhabalar ben Arda. Mehmet Rıfat Evyap Mesleki ve Teknik Anadolu Lisesi'nde bilişim bölümünü okuyorum. Kendimi iki yıldır Front-End alanında geliştirmeye çalışıyorum. 2023 yılının Mart ayında Kodluyoruz'da Hi-Kod Mentor görevi ile Gönüllülük sürecime başladım. Şiir yazmakla ilgileniyorum. Digimondi şirketinde eğitim görüyorum.",
         video: ""
     },
     {
@@ -102,9 +102,9 @@ const mentors = [{
                 displayName: "Instagram",
             },
         ],
-        school: "",
+        school: "Siirt Üniversitesi",
         exp: ["html", "css", "js"],
-        age: 88,
+        age: 21,
         desc: "Merhabalar Ben Azat, Front-end ve UI / UX Tasarım alanına meraklı bir Web Geliştiriciyim. Ağırlıklı olarak JavaScript (ReactJS, NextJS) kullanıyorum 2020 yılından beridir Front-end alanına 2022 Yılından beridir de UI / UX Tasarım alanına ilgiliyim 2023 Yılının Mart ayında Kodluyoruza (Teknik Asistan) görevi ile Gönüllülük sürecime başladım Kodluyoruz içinde Açık Kaynak Kodluyoruz projelerinde çeşitli görevler aldım. Hİ Kod Atölyesinde yazılıma yeni başlayan insanlara Front-end alanında mentörlük yaptım ve Çeşitli projelerde UI / UX Tasarım alanında bildiklerimi Topluluk önünde anlatmaya çalıştım.",
         video: "https://www.youtube.com/embed/rm2RRSy2KLU"
     },
@@ -120,13 +120,13 @@ const mentors = [{
                 displayName: "GitHub",
             },
             {
-                instagram: "https://instagram.com/begumh_telli?igshid=MzNlNGNkZWQ4Mg==",
+                instagram: "https://www.instagram.com/begumh_telli/?igshid=MzNlNGNkZWQ4Mg%3D%3D",
                 displayName: "Instagram",
             },
         ],
-        school: " ",
+        school: " Süleyman Demirel Üniversitesi",
         exp: ["html", "css", "js"],
-        age: 88,
+        age: 22,
         desc: "Merhaba ben Begüm, bilgisayar mühendisliği öğrencisiyim. 2 senedir bu sektörün içindeyim.  Front end web geliştirme ve backend tarafında Java ile ilgilenmekteyim. 2023 Şubat ayından beri Hi Kod Front End atölyesinde mentorlük yapıyorum. Hedefim full stack developer olmak. Amacım ise kendi versiyonumun en iyisi olup sektörde kadın gücünü göstermek! Yazılım sektöründe nice kadınları görmek ümidi ile!",
         video: ""
     },
@@ -267,11 +267,11 @@ const mentors = [{
         name: "Nida",
         surname: "Kılıç",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/nida-kilic-487a35255",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "http://github.com/Nidaklc044",
                 displayName: "GitHub",
             },
             {
