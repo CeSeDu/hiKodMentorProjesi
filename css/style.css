@@ -454,7 +454,7 @@ footer {
   .imgtext2 {
     font-size: 20px;
   }
-  .nav__button__orange {
+  footer .nav__button__orange {
     padding: 3px;
     font-size: 10px;
   }
@@ -467,7 +467,7 @@ footer {
   .mentorInfo i {
     font-size: 10px;
   }
-  .nav__button__orange {
+  footer .nav__button__orange {
     font-size: 8px;
   }
 }
@@ -572,7 +572,7 @@ footer {
   .mentorImg img {
     width: 40px;
   }
-  .nav__button__orange {
+  footer .nav__button__orange {
     font-size: 6px;
   }
 }
