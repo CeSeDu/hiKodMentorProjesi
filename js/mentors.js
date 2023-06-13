@@ -164,7 +164,7 @@ const mentors = [{
                 displayName: "GitHub",
             },
             {
-                instagram: "https://www.instagram.com/cagri/",
+                instagram: "https://www.instagram.com/vckrome/",
                 displayName: "Instagram",
             },
         ],
@@ -182,7 +182,7 @@ const mentors = [{
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/WebDevEren",
                 displayName: "GitHub",
             },
             {
@@ -193,7 +193,7 @@ const mentors = [{
         school: " ",
         exp: ["html", "css", "js"],
         age: 17,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        desc: "Ben Eren 1 yıldır yazılımla , 6 aydır front-end web geliştirme ile ilgileniyorum. Hedefim full-stack web developer olmak.",
         video: ""
     },
     {
@@ -311,15 +311,15 @@ const mentors = [{
         name: "Seda",
         surname: "Toraman",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/sedanurtoraman/",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/SedaToraman",
                 displayName: "GitHub",
             },
             {
-                instagram: "",
+                instagram: "https://www.instagram.com/trmnsedaa/",
                 displayName: "Instagram",
             },
         ],
