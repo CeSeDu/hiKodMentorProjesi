@@ -283,7 +283,7 @@ const mentors = [{
         exp: ["html", "css", "js"],
         age: 88,
         desc: "Merhaba ,ismim Nida. Firat Üniversitesi Yazılım Mühendisliği öğrencisi olarak eğitimime devam ediyorum. Kariyer hedeflerim doğrultusunda farklı alanlarda kendimi geliştiriyorum. Her fırsatta kendime yeni deneyimler katmak için itina ile çalışıyorum.",
-        video: ""
+        video: "https://youtube.com/embed/ZpM62phJPtg?feature=share"
     },
     {
         name: "Nuran",
