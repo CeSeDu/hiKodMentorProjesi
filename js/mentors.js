@@ -164,7 +164,7 @@ const mentors = [{
                 displayName: "GitHub",
             },
             {
-                instagram: "https://www.instagram.com/cagri/",
+                instagram: "https://www.instagram.com/vckrome/",
                 displayName: "Instagram",
             },
         ],
@@ -182,7 +182,7 @@ const mentors = [{
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/WebDevEren",
                 displayName: "GitHub",
             },
             {
@@ -193,22 +193,22 @@ const mentors = [{
         school: " ",
         exp: ["html", "css", "js"],
         age: 17,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        desc: "Ben Eren 1 yıldır yazılımla , 6 aydır front-end web geliştirme ile ilgileniyorum. Hedefim full-stack web developer olmak.",
         video: ""
     },
     {
         name: "Esmanur",
         surname: "Karataş",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/esmanur-karatas/",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/esmanur-karatas",
                 displayName: "GitHub",
             },
             {
-                instagram: "",
+                instagram: "https://www.instagram.com/nur.krts_/",
                 displayName: "Instagram",
             },
         ],
@@ -237,8 +237,8 @@ const mentors = [{
         school: "Şehit Edip Zengin Anadolu Lisesi",
         exp: ["html", "css", "csharp", "dotnet"],
         age: 18,
-        desc: "Merhaba ben Furkan, 6.hi-kod front-end atolyesinden mezun oldum. Kendimi backend alanında geliştiriyorum. Müzik dinlemek, oyun oynamak ve bisiklete binmekten hoşlanırım.",
-        video: ""
+        desc: "Merhaba ben Furkan, 18 yaşındayım, üniversite sınavına hazırlanıyorum. Bir yandan da kendimi yazılım alanında geliştiriyorum. Şuan ilgimi çeken alan Backend Web geliştirme alanı. Bugünlerde Asp.net üzerine çalışıyorum. Onun dışında Müzik dinlemek, oyun oynamak ve bisiklete binmekten hoşlanırım.",
+        video: "https://www.youtube.com/embed/86NQ23OjUC0"
     },
     {
         name: "Melisa",
@@ -259,8 +259,8 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "",
-        video: ""
+        desc: "Merhaba ben Melisa. Lise dönemimde web tasarım eğitimine başlayarak temel bilgilere sahip oldum ve bu alanda deneyim kazandım. Şu an Işık Üniversitesi Bilgisayar Programcılığı son sınıf öğrencisiyim. Hedefim front-end alanında yeteneklerimi ilerletmek . Bu doğrultuda kendimi sürekli geliştirmek  için projeler üzerinde çalışarak deneyim ediniyorum.",
+        video: "https://www.youtube.com/embed/F63dCwoI0cQ"
     },
 
     {
@@ -311,15 +311,15 @@ const mentors = [{
         name: "Seda",
         surname: "Toraman",
         socialMedia: [{
-                linkedin: "",
+                linkedin: "https://www.linkedin.com/in/sedanurtoraman/",
                 displayName: "Linkedln",
             },
             {
-                github: "",
+                github: "https://github.com/SedaToraman",
                 displayName: "GitHub",
             },
             {
-                instagram: "",
+                instagram: "https://www.instagram.com/trmnsedaa/",
                 displayName: "Instagram",
             },
         ],
