@@ -125,7 +125,7 @@ const mentors = [{
                 displayName: "GitHub",
             },
             {
-                instagram: "https://www.instagram.com/begumh_telli/?igshid=MzNlNGNkZWQ4Mg%3D%3D",
+                instagram: "https://www.instagram.com/begumh_telli/",
                 displayName: "Instagram",
             },
         ],
