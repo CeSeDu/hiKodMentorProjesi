@@ -27,9 +27,13 @@ if (idx[0] !== "indx") {
 
     const personImg = document.createElement("img");
     personImg.classList = "personImg";
-    personImg.src = `../img/img-${mentor.name
+    if (`${mentor.img}`.length > 0) {
+        personImg.src = `../img/img-${mentor.name
     .toLocaleLowerCase()
     .turkishToEnglish()}.jpg`;
+    } else {
+        personImg.src = `../img/img-nophoto.jpg`;
+    }
     article.append(personImg);
 
     const personInfo = document.createElement("div");
