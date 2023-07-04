@@ -282,7 +282,9 @@ footer {
 #scrtollToTop:hover {
   opacity: 1;
 }
-
+.mentorImg img {
+  object-fit: contain;
+}
 @media (max-width: 1618px) {
   .atolye-container {
     width: 30%;
