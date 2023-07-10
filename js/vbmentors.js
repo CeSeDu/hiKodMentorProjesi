@@ -1,13 +1,13 @@
 const mentors = [{
-        name: "",
-        surname: "",
+        name: "İrem",
+        surname: "U.",
         socialMedia: [{
-                linkedin: "",
-                displayName: "",
+                linkedin: "https://www.linkedin.com/in/irem-u-5b05381b9/",
+                displayName: "LinkedIn",
             },
             {
-                github: "",
-                displayName: "",
+                github: "https://github.com/irem6142",
+                displayName: "GitHub",
             },
             {
                 instagram: "",
@@ -17,7 +17,7 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "git", "bootstrap", "js", "react"],
         age: 21,
-        desc: "",
+        desc: "Merhaba ben İrem, Karadeniz Teknik Üniversitesi yazılım mühendisliği öğrencisiyim. Daha çok veri bilimi ile ilgilensem de yapay zeka ve siber güvenlikle de ilgileniyorum. Python, sql ve java dillerinde uzmanlaşmaya çalışıyorum.Tarihi kitapları ve doğru tarihi yansıtan dizi/filmleri seviyorum. İngilizce, İtalyanca ve İspanyolca öğrenmeye çalışıyorum.Öğrendiklerimi anlatmayı sevdiğim için öğrendiğim bilgileri mediumda paylaşıyorum.Web geçmişim de vardır ama ilgimi çok çekmediği için o alana yönelmedim.",
         video: "",
         img: "",
     },
@@ -91,15 +91,15 @@ const mentors = [{
         img: "",
     },
     {
-        name: "",
-        surname: "",
+        name: "Zeynep",
+        surname: "Asarkaya",
         socialMedia: [{
-                linkedin: "",
-                displayName: "",
+                linkedin: "https://www.linkedin.com/in/zeynep-asarkaya/",
+                displayName: "LinkedIn",
             },
             {
-                github: "",
-                displayName: "",
+                github: "https://github.com/zynpasarkaya",
+                displayName: "GitHub",
             },
             {
                 instagram: "",
@@ -109,7 +109,7 @@ const mentors = [{
         school: "",
         exp: ["html", "css", "js"],
         age: 18,
-        desc: "",
+        desc: "Merhaba; Ben Zeynep; Bilgi güvenliği, kalite yönetimi ve veri analizi konularında bilgi sahibiyim. Veri analizi ve programlama becerilerimle projeler geliştirirken aynı zamanda öğrencilere eğitimler veriyorum. İyi seviyede MS Office programları, SQL, Power BI ve Python gibi araçları kullanabiliyorum. Kendini sürekli geliştirmeye odaklanan ve planlı çalışmaya önem veren biriyim. Doğayı ve çevremizi korumaya yönelik projelerde aktif olarak yer alıyorum.",
         video: "",
         img: "",
     },
