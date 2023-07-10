@@ -19,7 +19,7 @@ const mentors = [{
         age: 22,
         desc: "Merhaba, ben Beyza Önal 22 yaşındayım. Karabük Üniversitesi  Bilgisayar Mühendisliği 3. Sınıf öğrencisiyim. Veri bilimi ile 1 senedir ilgileniyorum. Hi-Kod Veri Bilimi Atölyesi'ndeki eğitimimi tamamladıktan sonra aynı atölyede mentör olarak seçildim. Şu anda yeni atölyelerde mentörlüğe devam ediyorum. Edindiğim tecrübelerle yurtdışındaki bir şirketten veri mühendisliği stajıma kabul aldım. Stajıma ve veri bilimi alanında kendimi geliştirmeye devam ediyorum. Hobilerim saz çalmak ve bilgisayar oyunları. Sizleri de Hi-Kod'a bekliyorum 🙂",
         video: "https://www.youtube.com/watch?v=zIwRXfjkQVE",
-        img: "",
+        img: "completed",
     },
     {
         name: "İrem",
