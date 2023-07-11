@@ -1,115 +1,130 @@
-const createMentorContainer = () => {
-    const mentorsContainer = document.createElement("div");
-    mentorsContainer.id = "mentorlerContainer";
-    mentorsContainer.style.cssText =
-        "justify-content: center; margin-bottom: 17px;";
-    return mentorsContainer;
-};
+const mentorDisplay = window.location.search.replace('?', '').split('=')
 
-const createMentorCard = (socialMedias) => {
-    /** Mentor Card div'in oluşturulması */
-    const mentorCard = document.createElement("div");
-    mentorCard.classList = "mentorCard";
-    mentorCard.style.cssText = "width: 460px;";
+if (mentorDisplay[0] !== 'displayName') {
+    alert('Yanlış argüman girildi.')
 
-    // Mentor Card isim bölümü
-    const mentorCardHeader = document.createElement("a");
-    mentorCardHeader.href = "%%mentor_link%%";
+} else if (!mentors[mentorDisplay[1]]) {
 
-    const mentorCardImage = document.createElement("img");
-    mentorCardImage.classList = "mentorImg";
-    mentorCardImage.src = "%%mentor_img%%";
-    mentorCardImage.alt = "";
+    alert('Böyle bir mentör grubu bulunamadı.')
 
-    const mentorCardImageDiv = document.createElement("div");
-    mentorCardImageDiv.classList = "mentorImg";
-    mentorCardImageDiv.append(mentorCardImage);
+} else {
 
-    mentorCardHeader.append(mentorCardImageDiv);
+    const currentMentors = mentors[mentorDisplay[1]]
+    console.log(currentMentors.length)
 
-    const mentorCardInfo = document.createElement("div");
-    mentorCardInfo.classList = "mentorInfo";
-    const mentorCardInfoName = document.createElement("h3");
-    mentorCardInfoName.innerText = "%%mentor_name%%";
-    mentorCardInfo.append(mentorCardInfoName);
+    const createMentorContainer = () => {
+        const mentorsContainer = document.createElement("div");
+        mentorsContainer.id = "mentorlerContainer";
+        mentorsContainer.style.cssText =
+            "justify-content: center; margin-bottom: 17px;";
+        return mentorsContainer;
+    };
 
-    // Mentor Contact bölümü
-    const mentorContact = document.createElement("div");
-    mentorContact.classList = "mentorContact";
-    const blankDiv = document.createElement("div");
-    if (typeof socialMedias === "object" && socialMedias.length > 0) {
-        socialMedias.map((socialMedia) => {
-            const socialMediaInfo = Object.entries(socialMedia)[0];
-            const aLink = document.createElement("a");
-            aLink.href = `${socialMediaInfo[1]}`;
-            aLink.style.cssText = "text-decoration: none; color: black;";
+    const createMentorCard = (socialMedias) => {
+        /** Mentor Card div'in oluşturulması */
+        const mentorCard = document.createElement("div");
+        mentorCard.classList = "mentorCard";
+        mentorCard.style.cssText = "width: 460px;";
 
-            const socialMediaIcon = document.createElement("i");
-            socialMediaIcon.classList = `fa-brands fa-${socialMediaInfo[0]}`;
+        // Mentor Card isim bölümü
+        const mentorCardHeader = document.createElement("a");
+        mentorCardHeader.href = "%%mentor_link%%";
 
-            const socialMediaName = document.createElement("span");
-            socialMediaName.classList = "socialMediaName";
-            socialMediaName.innerText = socialMedia.displayName;
+        const mentorCardImage = document.createElement("img");
+        mentorCardImage.classList = "mentorImg";
+        mentorCardImage.src = "%%mentor_img%%";
+        mentorCardImage.alt = "";
 
-            aLink.append(socialMediaIcon);
-            aLink.appendChild(socialMediaName);
+        const mentorCardImageDiv = document.createElement("div");
+        mentorCardImageDiv.classList = "mentorImg";
+        mentorCardImageDiv.append(mentorCardImage);
 
-            blankDiv.append(aLink);
-        });
-    }
+        mentorCardHeader.append(mentorCardImageDiv);
 
-    mentorContact.append(blankDiv);
-    mentorCardInfo.appendChild(mentorContact);
+        const mentorCardInfo = document.createElement("div");
+        mentorCardInfo.classList = "mentorInfo";
+        const mentorCardInfoName = document.createElement("h3");
+        mentorCardInfoName.innerText = "%%mentor_name%%";
+        mentorCardInfo.append(mentorCardInfoName);
 
-    mentorCardHeader.appendChild(mentorCardInfo);
-    mentorCard.append(mentorCardHeader);
-    return mentorCard;
-};
+        // Mentor Contact bölümü
+        const mentorContact = document.createElement("div");
+        mentorContact.classList = "mentorContact";
+        const blankDiv = document.createElement("div");
+        if (typeof socialMedias === "object" && socialMedias.length > 0) {
+            socialMedias.map((socialMedia) => {
+                const socialMediaInfo = Object.entries(socialMedia)[0];
+                const aLink = document.createElement("a");
+                aLink.href = `${socialMediaInfo[1]}`;
+                aLink.style.cssText = "text-decoration: none; color: black;";
 
-const listMentors = () => {
-    const localOrigin = window.location.origin;
-    let indexValue = 1;
+                const socialMediaIcon = document.createElement("i");
+                socialMediaIcon.classList = `fa-brands fa-${socialMediaInfo[0]}`;
 
-    let mainDiv;
-    mentors.map((mentor, indx) => {
-        if (indx === 0) {
-            mainDiv = createMentorContainer();
-        } else if (indx === mentors.length - 1) {
-            document.querySelector("#mentorler").append(mainDiv);
+                const socialMediaName = document.createElement("span");
+                socialMediaName.classList = "socialMediaName";
+                socialMediaName.innerText = socialMedia.displayName;
+
+                aLink.append(socialMediaIcon);
+                aLink.appendChild(socialMediaName);
+
+                blankDiv.append(aLink);
+            });
         }
 
-        let mentorCardContent = createMentorCard(mentor.socialMedia);
+        mentorContact.append(blankDiv);
+        mentorCardInfo.appendChild(mentorContact);
 
-        mentorCardContent.innerHTML = mentorCardContent.innerHTML.replace(
-            /%%mentor_link%%/g,
-            `${localOrigin}/mentor/index.html?indx=${indx}`
-        );
-        if (`${mentor.img}`.length > 0) {
+        mentorCardHeader.appendChild(mentorCardInfo);
+        mentorCard.append(mentorCardHeader);
+        return mentorCard;
+    };
+
+    const listMentors = () => {
+        const localOrigin = window.location.origin;
+        let indexValue = 1;
+
+        let mainDiv;
+        currentMentors.map((mentor, indx) => {
+            if (indx === 0) {
+                mainDiv = createMentorContainer();
+            } else if (indx === currentMentors.length - 1) {
+                document.querySelector("#mentorler").append(mainDiv);
+            }
+
+            let mentorCardContent = createMentorCard(mentor.socialMedia);
+
             mentorCardContent.innerHTML = mentorCardContent.innerHTML.replace(
-                /%%mentor_img%%/g,
-                `${localOrigin}/img/img-${mentor.name
-        .toLocaleLowerCase()
-        .turkishToEnglish()}.jpg`
+                /%%mentor_link%%/g,
+                `${localOrigin}/mentor/index.html?indx=${indx}&displayName=${mentorDisplay[1]}`
             );
-        } else {
+            if (`${mentor.img}`.length > 0) {
+                mentorCardContent.innerHTML = mentorCardContent.innerHTML.replace(
+                    /%%mentor_img%%/g,
+                    `${localOrigin}/img/img-${mentor.name
+            .toLocaleLowerCase()
+            .turkishToEnglish()}.jpg`
+                );
+            } else {
+                mentorCardContent.innerHTML = mentorCardContent.innerHTML.replace(
+                    /%%mentor_img%%/g,
+                    `${localOrigin}/img/img-nophoto.jpg`)
+            };
+
             mentorCardContent.innerHTML = mentorCardContent.innerHTML.replace(
-                /%%mentor_img%%/g,
-                `${localOrigin}/img/img-nophoto.jpg`)
-        };
+                /%%mentor_name%%/g,
+                `${mentor.name} ${mentor.surname}`
+            );
 
-        mentorCardContent.innerHTML = mentorCardContent.innerHTML.replace(
-            /%%mentor_name%%/g,
-            `${mentor.name} ${mentor.surname}`
-        );
+            mainDiv.appendChild(mentorCardContent);
 
-        mainDiv.appendChild(mentorCardContent);
+            if (indx === indexValue) {
+                document.querySelector("#mentorler").append(mainDiv);
+                indexValue = indexValue + 2;
+                mainDiv = createMentorContainer();
+            }
+        });
+    };
 
-        if (indx === indexValue) {
-            document.querySelector("#mentorler").append(mainDiv);
-            indexValue = indexValue + 2;
-            mainDiv = createMentorContainer();
-        }
-    });
-};
-
-listMentors();
+    listMentors();
+}

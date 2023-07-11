@@ -1,7 +1,11 @@
-const idx = window.location.search.replace("?", "").split("=");
-
+const urlVariable = window.location.search.replace("?", "").split("&");
+const idx = urlVariable[0].split('=')
+const displayName = urlVariable[1].split('=')
 if (idx[0] !== "indx") {
     window.history.go(-1);
+} else if (displayName[0] !== 'displayName' || !mentors[displayName[1]]) {
+    window.history.go(-1);
+
 } else {
     const fileName = [
         "css.svg",
@@ -22,7 +26,8 @@ if (idx[0] !== "indx") {
     ];
     const indx = Number(idx[1]);
 
-    const mentor = mentors[indx];
+    const mentor = mentors[displayName[1]][indx];
+    console.log(mentor)
 
     const section = document.querySelector("#person");
 
