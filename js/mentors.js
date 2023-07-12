@@ -202,7 +202,7 @@ const mentors = {
             school: " ",
             exp: ["html", "css", "bootstrap", "js", "python"],
             age: 17,
-            desc: "Ben Eren 1 yıldır yazılımla , 6 aydır front-end web geliştirme ile ilgileniyorum. Hedefim full-stack web developer olmak.",
+            desc: "Ben Eren 2022'den beri yazılımla ilgileniyorum. Sürekli kendimi geliştirip yeni bilgiler öğrenmeye çalışıyorum. Hedefim Full-Stack Web Developer olup bu sektörde yer edinmek.",
             video: "https://www.youtube.com/embed/cYFAlbKJKfE",
             img: "",
         },
