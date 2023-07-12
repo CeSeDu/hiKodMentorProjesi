@@ -409,10 +409,10 @@ const mentors = {
                 },
             ],
             school: "Karabük Üniversitesi",
-            exp: ["html", "css", "js", "python", "csharp", "java", "c", "luau"],
+            exp: ["html", "css", "js", "python", "csharp", "java", "cc", "lua"],
             age: 22,
             desc: "Merhaba, ben Beyza Önal 22 yaşındayım. Karabük Üniversitesi  Bilgisayar Mühendisliği 3. Sınıf öğrencisiyim. Veri bilimi ile 1 senedir ilgileniyorum. Hi-Kod Veri Bilimi Atölyesi'ndeki eğitimimi tamamladıktan sonra aynı atölyede mentör olarak seçildim. Şu anda yeni atölyelerde mentörlüğe devam ediyorum. Edindiğim tecrübelerle yurtdışındaki bir şirketten veri mühendisliği stajıma kabul aldım. Stajıma ve veri bilimi alanında kendimi geliştirmeye devam ediyorum. Hobilerim saz çalmak ve bilgisayar oyunları. Sizleri de Hi-Kod'a bekliyorum 🙂",
-            video: "https://www.youtube.com/watch?v=zIwRXfjkQVE",
+            video: "https://www.youtube.com/embed/zIwRXfjkQVE",
             img: "completed",
         },
         {
@@ -551,7 +551,7 @@ const mentors = {
             exp: ["html", "css", "git", "bootstrap", "js", "react"],
             age: 18,
             desc: "Ben Berat, yaklaşık 6-7 aydır oyun geliştirme ile ilgileniyorum, çocukluğumdan beri oyunlara aşığım. Yıllardır tükettiğim bu sektöre artık birşeyler üretmenin ve hayallerimi gerçekleştirmenin farkına vardım. En büyük hayalim ise developer olmaktı. Tüm hikaye Hi-Kod'a seçilmem  ile başladı aslında. Yedeklerden girmiş olsam da o heyecanlı bekleyişlerimi unutamam. Bana bu işi öğreten saygı değer hocam Muhammet Adem Özcan ile yaptığımız dersler ile çok güzel bir temelim oldu, tabikide sadece derste bırakmayıp bende sürekli kendi başıma üzerine koydum. Şu anda hayatımda büyük yeri olan arkadaşlarım ve hocam ile tanıştım. Birlikte iş yaptığım insanları burada tanıdım. Birlikte oyunlar geliştirdik, Jam'lere katılıp güzel başarılar elde ettik. Bana gerçekten çok katkısı oldu. Daha sonra kendimi geliştirip projelere devam ettim. Şuan bir şirkette Game Developer olarak staj yapıyorum.",
-            video: "https://www.youtube.com/watch?v=qNQmsfShrmo",
+            video: "https://www.youtube.com/embed/qNQmsfShrmo",
             img: "conpleted",
         },
         {
@@ -620,7 +620,7 @@ const mentors = {
             exp: ["html", "css", "js"],
             age: 16,
             desc: "Merhaba ben Muhammed, 16 yaşındayım. 1.5 yıldır Oyun geliştirme alanında kendimi geliştiriyorum. Aynı zamanda 9 aydır pixel art tasarımlar yapıyorum. Bu yüzden şuanda pixel art oyunlar üzerinde çalışılıyorum.",
-            video: "Projemin video linki: https://youtu.be/aRW87QBpMG4",
+            video: "https://www.youtube.com/embed/aRW87QBpMG4",
             img: "comleted",
         },
         {

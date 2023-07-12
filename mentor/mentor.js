@@ -22,7 +22,10 @@ if (idx[0] !== "indx") {
         "unity.png",
         "csharp.png",
         "angular.png",
-        "vscode.png"
+        "vscode.png",
+        "java.png",
+        "cc.png",
+        "lua.png"
     ];
     const indx = Number(idx[1]);
 
