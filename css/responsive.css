@@ -1,0 +1,386 @@
+@media (max-width: 900px) {
+    .flex.socialLink i {
+        margin-top: 25px;
+        font-size: 50px !important;
+    }
+    .flex.personName h1 {
+        font-size: 35px !important;
+    }
+    .flex.personName h3 {
+        font-size: 16px !important;
+    }
+    .personImg {
+        width: 150px;
+        height: 150px;
+    }
+    .personalInfos span {
+        font-size: 25px;
+    }
+    #person {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .personalInfos span {
+        font-size: 18px;
+    }
+    #person {
+        width: 100%;
+    }
+    .flex.personName h1 {
+        font-size: 20px !important;
+    }
+    .flex.personName h3 {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 540px) {
+    .personInfo {
+        margin-left: 0 !important;
+        gap: 0;
+    }
+    .flex.personName h3 {
+        text-align: center;
+    }
+    .flex.socialLink i {
+        font-size: 35px !important;
+    }
+    .flex.personExtraInfo {
+        flex-direction: column;
+        width: 100%;
+    }
+    .personImg {
+        height: 180px;
+    }
+}
+
+@media (max-width: 420px) {
+    .flex.socialLink i {
+        font-size: 30px !important;
+    }
+    .personImg {
+        height: 165px;
+    }
+    .flex.personName h3 {
+        text-align: left;
+    }
+}
+
+@media (max-width: 390px) {
+    .personcard {
+        padding: 13px;
+    }
+}
+
+@media (max-width: 1618px) {
+    .atolye-container {
+      width: 30%;
+    }
+    .lang {
+      width: 30%;
+    }
+    #jsLang {
+      margin-left: 15px;
+    }
+  }
+  
+  @media (max-width: 1520px) {
+    .mentorContact {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 1470px) {
+    .text__container {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 1281px) {
+    #shape1,
+    #shape2,
+    #shape3 {
+      display: none;
+    }
+    .card-container {
+      width: 65%;
+    }
+    .atolye-container {
+      width: 40%;
+    }
+    .lang {
+      width: 30%;
+    }
+    #jsLang {
+      margin-left: 18px;
+    }
+    .mentorImg img {
+      width: 50px;
+    }
+    .mentorInfo h3 {
+      font-size: 15px;
+    }
+    .mentorCard {
+      width: 40%;
+    }
+  }
+  
+  @media (max-width: 1052px) {
+    #mentorlerContainer {
+      flex-direction: column;
+    }
+    .mentorCard {
+      width: 60%;
+    }
+    .mentorImg img {
+      width: 70px;
+    }
+    .mentorInfo h3 {
+      font-size: 20px;
+    }
+    .mentorContact {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 1025px) {
+    .container {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .card-container {
+      width: 65%;
+    }
+    .atolye-container {
+      width: 50%;
+    }
+    .lang {
+      width: 30%;
+    }
+    #jsLang {
+      margin-left: 17px;
+    }
+    .imgtext {
+      font-size: 80px;
+    }
+  }
+  
+  @media (max-width: 859px) {
+    .imgtext {
+      font-size: 65px;
+    }
+    .imgtext2 {
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 718px) {
+    .atolye-container {
+      width: 70%;
+    }
+    .lang {
+      width: 29%;
+    }
+    .lang span {
+      font-size: 13px;
+    }
+    .lang img,
+    .lang svg {
+      width: 15px;
+    }
+    #jsLang {
+      margin-left: 27px;
+    }
+    .mentorCard {
+      width: 80%;
+    }
+    .hamburger {
+      display: block;
+    }
+    .button__group {
+      position: absolute;
+      left: 0;
+      top: -100%;
+      width: 100%;
+      background-color: #fff;
+      padding: 50px;
+      text-align: center;
+      flex-direction: column;
+    }
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    .button__group.active {
+      top: 109px;
+    }
+    footer {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 702px) {
+    .imgtext {
+      font-size: 50px;
+    }
+    .imgtext2 {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    .mentorCard {
+      width: 100%;
+    }
+    .imgtext {
+      font-size: 40px;
+    }
+    .imgtext2 {
+      font-size: 20px;
+    }
+    footer .nav__button__orange {
+      padding: 3px;
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 465px) {
+    .mentorInfo span {
+      font-size: 10px;
+    }
+    .mentorInfo i {
+      font-size: 10px;
+    }
+    footer .nav__button__orange {
+      font-size: 8px;
+    }
+  }
+  
+  @media (max-width: 448px) {
+    .atolye-container {
+      width: 100%;
+    }
+    .lang {
+      width: 29%;
+    }
+    .lang span {
+      font-size: 10px;
+    }
+    .lang img {
+      width: 12px;
+    }
+    #jsLang {
+      margin-left: 15px;
+    }
+    .imgtext {
+      font-size: 30px;
+    }
+    .imgtext2 {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .mentorInfo h3 {
+      font-size: 12px;
+    }
+    .mentorImg img {
+      width: 50px;
+    }
+    .mentorContact {
+      display: block;
+    }
+    .footer-sag a {
+      font-size: 10px;
+    }
+    .mentorContact div {
+      display: flex;
+      flex-direction: column;
+    }
+    .mentorCard {
+      width: 80%;
+    }
+  
+    #mentorler h1 {
+      font-size: 30px !important;
+    }
+    #mentorler p {
+      font-size: 15px !important;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .atolye-container {
+      width: 100%;
+    }
+    .lang {
+      width: 28%;
+    }
+    .lang span {
+      font-size: 10px;
+    }
+    .lang img {
+      width: 12px;
+    }
+    #jsLang {
+      margin-left: 7px;
+    }
+    .mentorInfo h3 {
+      font-size: 10px;
+    }
+    .mentorContact span {
+      font-size: 8px;
+    }
+    .mentorContact i {
+      font-size: 8px;
+    }
+    #seeAllMentors a {
+      font-size: 10px;
+    }
+    .imgtext {
+      font-size: 20px;
+    }
+    .imgtext2 {
+      font-size: 10px;
+    }
+    .footer-sag a {
+      font-size: 6px;
+    }
+  }
+  
+  @media (max-width: 306px) {
+    .card svg {
+      height: 30px;
+    }
+    .card h3 {
+      font-size: 13px;
+    }
+    .atolye-container {
+      width: 100%;
+    }
+    .lang {
+      width: 27%;
+    }
+    .lang span {
+      font-size: 8px;
+    }
+    .lang img {
+      width: 8px;
+    }
+    .mentorImg img {
+      width: 40px;
+    }
+    footer .nav__button__orange {
+      font-size: 6px;
+    }
+  }
