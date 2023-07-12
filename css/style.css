@@ -102,6 +102,7 @@ body {
   color: #333;
   height: 220px;
   z-index: 3;
+  
 }
 
 #shape1,
@@ -646,4 +647,9 @@ border-radius: 20px;
 
 .mentorInfo > a {
   text-decoration: none;
+}
+
+
+.svg{
+  height: 50px;
 }
