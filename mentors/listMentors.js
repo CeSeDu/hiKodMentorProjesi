@@ -24,7 +24,7 @@ if (mentorDisplay[0] !== 'displayName') {
         /** Mentor Card div'in oluşturulması */
         const mentorCard = document.createElement("div");
         mentorCard.classList = "mentorCard";
-        mentorCard.style.cssText = "width: 460px;";
+        // mentorCard.style.cssText = "width: 460px;";
 
         // Mentor Card isim bölümü
         const mentorCardHeader = document.createElement("a");
