@@ -42,7 +42,7 @@ const mentors = {
             exp: ["html", "css", "js"],
             age: 18,
             desc: "Merhabalar ben Asude. Siber güvenlik, oyun geliştirme, yapay zeka, front-end, back-end, veri bilimi, derin öğrenme ve makine öğrenmesi alanlarıyla ilgileniyorum. Kodluyoruz Jr.'de atölye gerçekleştirdim. Kodluyoruz Jr. Fellow'uyum.",
-            video: "https://youtu.be/EnJtkkiY4P0",
+            video: "https://www.youtube.com/embed/EnJtkkiY4P0",
             img: "",
         },
         {
