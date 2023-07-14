@@ -1,17 +1,22 @@
 const randomUsers = [];
 
-const getRandomValue = () => {
-    return Math.floor(Math.random() * mentors.length);
+const payload = ['fe', 'vb', 'og'];
+
+
+const getRandomValue = (length) => {
+    return Math.floor(Math.random() * length);
 };
+const currentPayload = payload[getRandomValue(payload.length)]
 const getRandomUser = () => {
-    let user = mentors[getRandomValue()];
+    const mentorPayload = mentors[currentPayload]
+    let user = mentorPayload[getRandomValue(mentorPayload.length)];
     if (randomUsers.length > 0) {
         while (true) {
             if (
                 randomUsers[0].name === user.name &&
                 randomUsers[0].surname === user.surname
             ) {
-                user = mentors[getRandomValue()];
+                user = mentorPayload[getRandomValue(mentorPayload.length)];
             } else {
                 randomUsers.push(user);
                 return false;
@@ -32,7 +37,7 @@ const mentorSocialLinkedin = document.querySelectorAll(
 const mentorSocialInstagram = document.querySelectorAll(
     ".mentorContact > div:nth-child(1) > span"
 );
-
+const mentorsLink = document.querySelector('#mentor-link').setAttribute('href', `../mentors/mentors.html?displayName=${currentPayload}`)
 randomUsers.map((user, indx) => {
     if (`${user.img}`.length > 0) {
         img[indx].src = `/img/img-${user.name
