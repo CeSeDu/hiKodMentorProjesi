@@ -28,7 +28,12 @@ body {
   transition: all 0.4s ease-in-out;
   z-index: 100;
 }
-
+.button__group a {
+  transition: 0.4s ease-in-out;
+}
+.button__group a:hover {
+  color: #fc820f;
+}
 .hamburger {
   display: none;
   cursor: pointer;
