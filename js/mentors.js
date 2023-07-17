@@ -397,15 +397,15 @@ const mentors = {
         surname: "Önal",
         socialMedia: [{
             linkedin: "",
-            displayName: "",
+            displayName: "LinkedIn",
         },
         {
-            github: "github: https://github.com/stanloona64",
+            github: "https://github.com/stanloona64",
             displayName: "GitHub",
         },
         {
-            instagram: "",
-            displayName: "",
+            instagram: "https://www.instagram.com/onlbyza/",
+            displayName: "Instagram",
         },
         ],
         school: "Karabük Üniversitesi",
@@ -419,16 +419,16 @@ const mentors = {
         name: "Bilge",
         surname: "Atçalı",
         socialMedia: [{
-            linkedin: "",
-            displayName: "",
+            linkedin: "https::/www.linkedin.com/in/bilgeatcali",
+            displayName: "LinkedIn",
         },
         {
-            github: "",
-            displayName: "",
+            github: "https://github.com/atcalibilge",
+            displayName: "GitHub",
         },
         {
             instagram: "",
-            displayName: "",
+            displayName: "Instagram",
         },
         ],
         school: "",
@@ -436,11 +436,11 @@ const mentors = {
         age: 18,
         desc: "Merhaba ben Bilge ATÇALI. Endüstri mühendisliği 3. Sınıf öğrencisiyim. Veri bilimiyle ilgileniyorum çünkü endüstri mühendisliğinin sektör, teknik, matematiksel bilgilerini veri bilimiyle harmanlayarak kariyerime devam etmek istiyorum. Bu hedef doğrultsunda Python, SQL, machine learning alanlarında çalışmalar yapıyorum.",
         video: "",
-        img: "comleted",
+        img: "completed",
     },
     {
-        name: "Emel",
-        surname: "Deniz",
+        name: "Emel Deniz",
+        surname: "Ayvaz",
         socialMedia: [{
             linkedin: "https://www.linkedin.com/in/emel-deniz-ayvaz-3a68b123a/",
             displayName: "LinkedIn",
@@ -451,7 +451,7 @@ const mentors = {
         },
         {
             instagram: "https://www.instagram.com/wheresmmind/",
-            displayName: "İnstagram",
+            displayName: "Instagram",
         },
         ],
         school: "Doğuş Üniversites",
@@ -462,7 +462,7 @@ const mentors = {
         img: "",
     },
     {
-        name: "Fatıma Nur",
+        name: "Fatma Nur",
         surname: "Görmez",
         socialMedia: [{
             linkedin: "https://www.linkedin.com/in/fatıma-nur-görmez-a57016222/",
@@ -474,7 +474,7 @@ const mentors = {
         },
         {
             instagram: "https://www.instagram.com/grmezfatima/",
-            displayName: "İnstagram",
+            displayName: "Instagram",
         },
         ],
         school: "Dumlupınar Üniversitesi",
@@ -488,7 +488,7 @@ const mentors = {
         name: "Hilal Nur",
         surname: "Tınas",
         socialMedia: [{
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/hilalnurtinas",
             displayName: "Linkedin",
         },
         {
@@ -497,11 +497,11 @@ const mentors = {
         },
         {
             instagram: "",
-            displayName: "İnstagram",
+            displayName: "Instagram",
         },
         ],
         school: "Kocaeli Üniversitesi",
-        exp: ["html", "css", "js"],
+        exp: ["python", "c", "java", "c#", "kotlin","html", "css", "sql"],
         age: 22,
         desc: "Merhabalar. Ben Hilal Nur Tınas. 22 yaşındayım. Kocaeli Üniversitesi Bilgisayar Mühendisliği 3. Sınıf öğrencisiyim. Veri Bilimi ile okulumda seçmeli dersim sayesinde tanıştım ve sonrasında bilgilerimi katıldığım Hi-Kod atölyesi sayesinde taçlandırdım. Atölye boyunca veri ile uğraşmaktan keyif aldım ve kendimi bu alanda geliştirme kararı aldım. Aynı zamanda şu anda atölyede mentor olarak devam etmekteyim. Kendimi bu alanda geliştirmeye ve projeler yapmaya devam ediyorum. Yaz stajımı Uyumsoft’ta software developer olarak yapmaktayım. Hobilerim müzik dinlemek, kitap okumak ve spor yapmak.",
         video: "",
@@ -509,7 +509,7 @@ const mentors = {
     },
     {
         name: "İrem",
-        surname: "U.",
+        surname: "Uslu",
         socialMedia: [{
             linkedin: "https://www.linkedin.com/in/irem-u-5b05381b9/",
             displayName: "LinkedIn",
@@ -520,10 +520,10 @@ const mentors = {
         },
         {
             instagram: "",
-            displayName: "",
+            displayName: "Instagram",
         },
         ],
-        school: "",
+        school: "Karadeniz Teknik Üniversitesi",
         exp: ["html", "css", "git", "bootstrap", "js", "react"],
         age: 21,
         desc: "Merhaba ben İrem, Karadeniz Teknik Üniversitesi yazılım mühendisliği öğrencisiyim. Daha çok veri bilimi ile ilgilensem de yapay zeka ve siber güvenlikle de ilgileniyorum. Python, sql ve java dillerinde uzmanlaşmaya çalışıyorum.Tarihi kitapları ve doğru tarihi yansıtan dizi/filmleri seviyorum. İngilizce, İtalyanca ve İspanyolca öğrenmeye çalışıyorum.Öğrendiklerimi anlatmayı sevdiğim için öğrendiğim bilgileri mediumda paylaşıyorum.Web geçmişim de vardır ama ilgimi çok çekmediği için o alana yönelmedim.",
@@ -543,14 +543,37 @@ const mentors = {
         },
         {
             instagram: "https://www.instagram.com/merveguz3l/",
-            displayName: "İnstagram",
+            displayName: "Instagram",
         },
         ],
-        school: "",
+        school: "İstanbul Üniversitesi",
         exp: ["html", "css", "js"],
         age: 21,
         desc: "Merhaba ben Merve Güzel. 21 yaşındayım ve İstanbul Üniversitesi Matematik bölümünde 3.sınıf öğrencisiyim. Matematiğe ve veri bilimine tutkuyla bağlıyım. 1 seneyi aşkın bir süredir kendimi Veri Bilimi’nde geliştirmeye çalışıyorum. Hi-Kod Veri Bilimi atölyesi bu yolculukta katıldığım en verimli eğitimlerden biriydi. Burada, bu atölyede, bu insanlarla bulunmaktan çok mutluydum ve bu nedenle de bu atölyede mentor olarak devam ediyorum. Bu yolculukta öğrendiklerimi paylaşmaya, yeni şeyler öğrenmeye ve projeler geliştirmeye devam ediyorum. Aynı zamanda müzikle ilgileniyorum ve keman çalıyorum. Müzik-matematik ilişkisiyle ilgili araştırmalar yapıyorum.",
         video: "",
+        img: "completed",
+    },
+    {
+        name: "Şerife",
+        surname: "Koçak",
+        socialMedia: [{
+            linkedin: "https://www.linkedin.com/in/%C5%9Ferife-ko%C3%A7ak-b6966a204",
+            displayName: "Linkedin",
+        },
+        {
+            github: "https://github.com/serifekocak",
+            displayName: "GitHub",
+        },
+        {
+            instagram: "",
+            displayName: "Instagram",
+        },
+        ],
+        school: "Konya Gıda ve Tarım Üniversitesi",
+        exp: ["python", "c", "java", "c#", "html", "css"],
+        age: 22,
+        desc: "Merhabalar. Ben Şerife Koçak. 22 yaşındayım. Konya Gıda ve Tarım Üniversitesi Bilgisayar Mühendisliği 3. Sınıf öğrencisiyim. Veri Bilimi ile katıldığım Hi-Kod atölyesinde tanıştım. Atölye boyunca Veri ile uğraşmaktan keyif aldım ve kendimi bu alanda geliştirme kararı aldım. Aynı zamanda şuanda atölyede mentor olarak devam etmekteyim. Şuanda da kendimi bu alanda geliştirmeye ve projeler yapmaya devam ediyorum. Yaz stajımı Aselsan'da Yazılım Tasarım biriminde yapmaktayım. Hobilerim yürüyüş yapmak ve yüzmek.",
+        video: "https://github.com/serifekocak/Turkey-Earthquake-Data-Analysis",
         img: "completed",
     },
     {
@@ -566,7 +589,7 @@ const mentors = {
         },
         {
             instagram: "https://www.instagram.com/yusufeesat/",
-            displayName: "İnstgaram",
+            displayName: "Instgaram",
         },
         ],
         school: "",
@@ -589,7 +612,7 @@ const mentors = {
         },
         {
             instagram: "",
-            displayName: "",
+            displayName: "Instagram",
         },
         ],
         school: "",
@@ -597,7 +620,7 @@ const mentors = {
         age: 18,
         desc: "Merhaba; Ben Zeynep; Bilgi güvenliği, kalite yönetimi ve veri analizi konularında bilgi sahibiyim. Veri analizi ve programlama becerilerimle projeler geliştirirken aynı zamanda öğrencilere eğitimler veriyorum. İyi seviyede MS Office programları, SQL, Power BI ve Python gibi araçları kullanabiliyorum. Kendini sürekli geliştirmeye odaklanan ve planlı çalışmaya önem veren biriyim. Doğayı ve çevremizi korumaya yönelik projelerde aktif olarak yer alıyorum.",
         video: "",
-        img: "",
+        img: "completed",
     },
     ],
     og: [{
@@ -621,28 +644,51 @@ const mentors = {
         age: 18,
         desc: "Ben Berat, yaklaşık 6-7 aydır oyun geliştirme ile ilgileniyorum, çocukluğumdan beri oyunlara aşığım. Yıllardır tükettiğim bu sektöre artık birşeyler üretmenin ve hayallerimi gerçekleştirmenin farkına vardım. En büyük hayalim ise developer olmaktı. Tüm hikaye Hi-Kod'a seçilmem  ile başladı aslında. Yedeklerden girmiş olsam da o heyecanlı bekleyişlerimi unutamam. Bana bu işi öğreten saygı değer hocam Muhammet Adem Özcan ile yaptığımız dersler ile çok güzel bir temelim oldu, tabikide sadece derste bırakmayıp bende sürekli kendi başıma üzerine koydum. Şu anda hayatımda büyük yeri olan arkadaşlarım ve hocam ile tanıştım. Birlikte iş yaptığım insanları burada tanıdım. Birlikte oyunlar geliştirdik, Jam'lere katılıp güzel başarılar elde ettik. Bana gerçekten çok katkısı oldu. Daha sonra kendimi geliştirip projelere devam ettim. Şuan bir şirkette Game Developer olarak staj yapıyorum.",
         video: "https://www.youtube.com/embed/qNQmsfShrmo",
-        img: "conpleted",
+        img: "completed",
     },
     {
-        name: "",
-        surname: "",
+        name: "Berke",
+        surname: "Konargöçer",
         socialMedia: [{
-            linkedin: "",
-            displayName: "",
+            linkedin: "https://www.linkedin.com/in/berkekonargocer/",
+            displayName: "LinkedIn",
         },
         {
-            github: "",
-            displayName: "",
+            github: "https://github.com/berkekonargocer",
+            displayName: "GitHub",
         },
         {
-            instagram: "",
-            displayName: "",
+            instagram: "https://www.instagram.com/berkekonargocer/",
+            displayName: "Instagram",
         },
         ],
         school: "",
-        exp: ["html", "css", "js"],
+        exp: ["c#", "c++", "raylib", "azure playfab", "unity", "unreal engine", "aseprite", "audacity", "github", "camtasia"],
         age: 18,
-        desc: "",
+        desc: "Çok küçük yaşlardan itibaren video oyunlarına ve arkaplanlarına duyduğu kuvvetli ilginin getirdiği tutkuyla bu sektöre yönelmiş, aktif olarak C# yazılım dili ve Unity oyun motorunu kullanarak oyunlar geliştiren Unity Oyun Geliştiricisi.",
+        video: "",
+        img: "completed",
+    },
+    {
+        name: "Kaan",
+        surname: "Karahancı",
+        socialMedia: [{
+            linkedin: "https://www.linkedin.com/in/kaankarahanci/",
+            displayName: "LinkedIn",
+        },
+        {
+            github: "",
+            displayName: "GitHub",
+        },
+        {
+            instagram: "https://www.instagram.com/mriyagames/",
+            displayName: "Instagram",
+        },
+        ],
+        school: "",
+        exp: ["unity", "blender", "unreal engine", "c#", "adobe premiere pro", "adobe photoshop"],
+        age: 20,
+        desc: "Ben Kaan, 20 yaşındayım. Yaklaşık iki yıldır oyun geliştirmekle ilgileniyorum. Senarist olarak başladığım bu sürece hi-kod sayesinde programmer olarak devam ettim. Bugünlerde kendi start-up'ım içerisinde ürün yönetimi ve oyun tasarımı görevlerini üstleniyorum.",
         video: "",
         img: "",
     },
@@ -667,7 +713,7 @@ const mentors = {
         age: 16,
         desc: "Merhaba ben Muhammed, 16 yaşındayım. 1.5 yıldır Oyun geliştirme alanında kendimi geliştiriyorum. Aynı zamanda 9 aydır pixel art tasarımlar yapıyorum. Bu yüzden şuanda pixel art oyunlar üzerinde çalışılıyorum.",
         video: "https://www.youtube.com/embed/aRW87QBpMG4",
-        img: "comleted",
+        img: "completed",
     },
     {
         name: "Muhammet",
@@ -682,7 +728,7 @@ const mentors = {
         },
         {
             instagram: "",
-            displayName: "",
+            displayName: "Instagram",
         },
         ],
         school: "Mehmet Rıfat Evyap MTAL",
@@ -690,7 +736,7 @@ const mentors = {
         age: 17,
         desc: "Merhaba, ben Muhammet Bulut. 6 yaşındayken bozulan bilgisayarım sayesinde onu araştırmaya başlama merakıyla yazılım sektörüne kendimi adadım. 3.5 yıldır oyun geliştirme ve 2 yıldır da web geliştiricisi olarak projeler üretip uygulamalar geliştiriyorum.",
         video: "https://youtu.be/embed/z6O1663zMNw",
-        img: "comledet",
+        img: "completed",
     },
 
     ]
