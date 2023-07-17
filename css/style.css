@@ -102,7 +102,6 @@ body {
   color: #333;
   height: 220px;
   z-index: 3;
-  
 }
 
 #shape1,
@@ -159,7 +158,8 @@ main {
 }
 
 .header__container {
-  background-image: url(../assets/img/img.jpeg);
+  background-image: linear-gradient(90deg, #fc820fbe, #fc820f98),
+    url(../assets/img/img.jpeg);
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -188,9 +188,8 @@ main {
 .imgtext2 {
   font-weight: 600;
   font-size: 48px;
-  opacity: 0.5;
+  opacity: 0.7;
   margin-top: -70px;
-  background: linear-gradient(to left, black,rgb(40, 25, 25));
 }
 
 /* Mentorler baslangıc */
@@ -340,7 +339,6 @@ border-radius: 20px;
   text-decoration: none;
 }
 
-
-.svg{
+.svg {
   height: 50px;
 }
