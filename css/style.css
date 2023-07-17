@@ -190,6 +190,7 @@ main {
   font-size: 48px;
   opacity: 0.5;
   margin-top: -70px;
+  background: linear-gradient(to left, black,rgb(40, 25, 25));
 }
 
 /* Mentorler baslangıc */
