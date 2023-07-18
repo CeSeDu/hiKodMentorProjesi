@@ -31,8 +31,11 @@ body {
 .button__group a {
   transition: 0.4s ease-in-out;
 }
-.button__group a:hover {
+.button__group a:not(.nav__button__orange):hover {
   color: #fc820f;
+}
+.button__group .nav__button__orange:hover {
+  transform: scale(1.1);
 }
 .hamburger {
   display: none;
@@ -271,7 +274,15 @@ footer {
 .footer-sag {
   display: flex;
 }
-
+.footer-sag a {
+  transition: all 0.4s ease-in-out;
+}
+.footer-sag a:not(.nav__button__orange):hover {
+  color: #fc820f !important;
+}
+.footer-sag .nav__button__orange:hover {
+  transform: scale(1.1);
+}
 #scrtollToTop {
   cursor: pointer;
   position: fixed;
