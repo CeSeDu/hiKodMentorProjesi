@@ -25,7 +25,18 @@ if (idx[0] !== "indx") {
         "vscode.png",
         "java.png",
         "cc.png",
-        "lua.png"
+        "lua.png",
+        "cpp.png",
+        "raylib.png",
+        "playfab.png",
+        "unreal.png",
+        "aseprite.png",
+        "audacity.png",
+        "github.png",
+        "camtasia.png",
+        "blender.png",
+        "adobe_premiere.png",
+        "adobe_photoshop.png"
     ];
     const indx = Number(idx[1]);
 
