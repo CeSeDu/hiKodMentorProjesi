@@ -36,7 +36,9 @@ if (idx[0] !== "indx") {
         "camtasia.png",
         "blender.png",
         "adobe_premiere.png",
-        "adobe_photoshop.png"
+        "adobe_photoshop.png",
+        "kotlin.png",
+        "sql.png"
     ];
     const indx = Number(idx[1]);
 

@@ -501,7 +501,7 @@ const mentors = {
         },
         ],
         school: "Kocaeli Üniversitesi",
-        exp: ["python", "c", "java", "c#", "kotlin","html", "css", "sql"],
+        exp: ["python", "cc", "java", "csharp", "kotlin","html", "css", "sql"],
         age: 22,
         desc: "Merhabalar. Ben Hilal Nur Tınas. 22 yaşındayım. Kocaeli Üniversitesi Bilgisayar Mühendisliği 3. Sınıf öğrencisiyim. Veri Bilimi ile okulumda seçmeli dersim sayesinde tanıştım ve sonrasında bilgilerimi katıldığım Hi-Kod atölyesi sayesinde taçlandırdım. Atölye boyunca veri ile uğraşmaktan keyif aldım ve kendimi bu alanda geliştirme kararı aldım. Aynı zamanda şu anda atölyede mentor olarak devam etmekteyim. Kendimi bu alanda geliştirmeye ve projeler yapmaya devam ediyorum. Yaz stajımı Uyumsoft’ta software developer olarak yapmaktayım. Hobilerim müzik dinlemek, kitap okumak ve spor yapmak.",
         video: "",
@@ -573,7 +573,7 @@ const mentors = {
         exp: ["python", "c", "java", "c#", "html", "css"],
         age: 22,
         desc: "Merhabalar. Ben Şerife Koçak. 22 yaşındayım. Konya Gıda ve Tarım Üniversitesi Bilgisayar Mühendisliği 3. Sınıf öğrencisiyim. Veri Bilimi ile katıldığım Hi-Kod atölyesinde tanıştım. Atölye boyunca Veri ile uğraşmaktan keyif aldım ve kendimi bu alanda geliştirme kararı aldım. Aynı zamanda şuanda atölyede mentor olarak devam etmekteyim. Şuanda da kendimi bu alanda geliştirmeye ve projeler yapmaya devam ediyorum. Yaz stajımı Aselsan'da Yazılım Tasarım biriminde yapmaktayım. Hobilerim yürüyüş yapmak ve yüzmek.",
-        video: "https://github.com/serifekocak/Turkey-Earthquake-Data-Analysis",
+        video: "",
         img: "completed",
     },
     {
@@ -596,7 +596,7 @@ const mentors = {
         exp: ["html", "css", "js"],
         age: 18,
         desc: " Merhaba, ben Yusuf Esat. Yazılım dünyasına Front-end olarak adım attım ve HTML, CSS, JavaScript ve Bootstrap ile farklı projeler geliştirdim. Daha sonra ise C# ile nesne yönelimli programlama konusuna odaklandım ve OOP prensiplerini kullanarak çeşitli otomasyonlar oluşturdum. Ancak ilgim daha sonra veri bilimi alanına yöneldi. Şu anda ise aktif olarak yapay zeka konusunda çalışmalar yapıyorum ve bir firma bünyesinde yapay zeka alanında staj yapıyorum. Sizlere Hi-Kod'da mentor olarak yardımcı olmaktan büyük bir mutluluk duyarım 😊 .",
-        video: "https://www.youtube.com/watch?v=f2BE-n1LUAc",
+        video: "https://www.youtube.com/embed/f2BE-n1LUAc",
         img: "",
     },
     {
@@ -735,7 +735,7 @@ const mentors = {
         exp: ["html", "css", "js"],
         age: 17,
         desc: "Merhaba, ben Muhammet Bulut. 6 yaşındayken bozulan bilgisayarım sayesinde onu araştırmaya başlama merakıyla yazılım sektörüne kendimi adadım. 3.5 yıldır oyun geliştirme ve 2 yıldır da web geliştiricisi olarak projeler üretip uygulamalar geliştiriyorum.",
-        video: "https://youtu.be/embed/z6O1663zMNw",
+        video: "",
         img: "completed",
     },
 
