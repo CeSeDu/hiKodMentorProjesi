@@ -179,7 +179,7 @@ const mentors = {
         school: " ",
         exp: ["html", "css", "js"],
         age: 88,
-        desc: "Merhaba, ben Çağrı! Bu kısımda uzun uzun kendim hakkında açıklama yapıyorum bla bla, mentorlere özel bir sürü kişisel şey konulabilir buraya (örnek: film listeleri, hi-kod dersleri, projeler vs.)",
+        desc: "Ben Çağrı Okan. TEV İnanç Türkeş Özel Lisesi'nde eğitim görmekteyim. Tasarım, programlama ve müzik başta olmak üzere birçok alanda farklı faaliyetler göstermekteyim. Logo tasarımı, UI/UX arayüz tasarımı, müzik prodüktörlüğü ve farklı amaçlı algoritmalar üzerine çalışmalar yaptım. Son zamanlarda ise yoğunluklu olarak veri analizi ve yapay zekayı çeşitli alanlarda daha etkili şekilde kullanabilmek adına projeler geliştiriyorum. Bu alanda gelişen yenilikleri ve düşüncelerimi Senato isimli felsefe dergimde paylaşıyorum.",
         video: "",
         img: "completed",
     },
