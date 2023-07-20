@@ -20,7 +20,9 @@ body {
   align-items: center;
   padding: 20px;
 }
-
+.mentorInfo a {
+  color: #fc820f;
+}
 .button__group {
   display: flex;
   gap: 15px;
