@@ -38,7 +38,8 @@ if (idx[0] !== "indx") {
         "adobe_premiere.png",
         "adobe_photoshop.png",
         "kotlin.png",
-        "sql.png"
+        "sql.png",
+        "typescript.png"
     ];
     const indx = Number(idx[1]);
 
@@ -74,8 +75,9 @@ if (idx[0] !== "indx") {
     personName.append(personNameH);
 
     const personTitle = document.createElement("h3");
+    personTitle.classList = "personTitle"
     personTitle.style.cssText = "margin: 0; font-size: 24px; font-weight: 500";
-    personTitle.innerText = "Kodluyoruz Jr. Hi-Kod Front End Mentoru";
+
     personName.appendChild(personTitle);
 
     personInfo.appendChild(personName);
@@ -163,5 +165,29 @@ if (idx[0] !== "indx") {
         section.appendChild(iframe);
     } else {
         document.getElementById("person").style.height = "982px";
+    }
+
+
+    const writeDisplayname = (message) => {
+        const displayHTML = document.querySelector(".personTitle");
+        console.log(displayHTML);
+        displayHTML.innerHTML = `Kodluyoruz Jr. Hi-Kod ${message} Mentoru`
+    }
+
+    switch (displayName[1]) {
+        case "fe":
+            writeDisplayname('Front End')
+            break;
+
+        case "vb":
+            writeDisplayname('Veri Bilimi')
+            break;
+
+        case "og":
+            writeDisplayname('Oyun Geliştirme')
+            break;
+
+        default:
+            break;
     }
 }
