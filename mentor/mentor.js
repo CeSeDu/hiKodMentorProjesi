@@ -38,7 +38,8 @@ if (idx[0] !== "indx") {
         "adobe_premiere.png",
         "adobe_photoshop.png",
         "kotlin.png",
-        "sql.png"
+        "sql.png",
+        "typescript.png"
     ];
     const indx = Number(idx[1]);
 
