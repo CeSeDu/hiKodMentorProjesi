@@ -337,6 +337,7 @@ const mentors = {
         age: 22,
         desc: "Merhaba ben Nuran! Pamukkale Üniversitesinde 3. sınıf öğrencisiyim. Bir yılı aşkın süredir yazılımda kendimi geliştirmeye çalışıyorum. 2023 Şubat ayından beri Hi-Kod Atölyesinde Front-End mentorluk yapıyorum.",
         img: "completed",
+        video: "",
     },
     {
       name: "Seda",
